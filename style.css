@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: #ebf5fc;
+}
+
+.card, .card-body{
+    background: #ebf5fc;
+    border: none;
+    box-shadow: -6px -6px 20px rgba(252,255,255,1), 
+                 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover,.card-body:hover{
+    box-shadow: inset -6px -6px 10px rgba(252,255,255,0.5), 
+                 inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
